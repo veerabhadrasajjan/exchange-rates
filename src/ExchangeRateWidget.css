@@ -1,0 +1,95 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f6fa;
+}
+
+
+
+.ExchangeRateWidget {
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.ExchangeRateWidget__currency-select {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.ExchangeRateWidget__currency-select label {
+    margin-right: 5px;
+}
+
+.ExchangeRateWidget__currency-select select {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.ExchangeRateWidget__currency-select select:last-of-type {
+    margin-right: 0;
+}
+
+.ExchangeRateWidget__value-input {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.ExchangeRateWidget__exchange-rate {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.ExchangeRateWidget__exchange-rate p {
+    margin: 0;
+}
+
+.ExchangeRateWidget__exchange-rate strong {
+    margin-right: 5px;
+}
+
+.ExchangeRateWidget__input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ExchangeRateWidget__label {
+    margin-right: 0.5rem;
+}
+
+.ExchangeRateWidget__select {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.ExchangeRateWidget__input {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.ExchangeRateWidget__readonly-input {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+}
+
+.ExchangeRateWidget__select--base {
+    margin-right: 0.5rem;
+}
+
+.ExchangeRateWidget__select--quote {
+    margin-right: 0.5rem;
+}
+
+.ExchangeRateWidget__submit {
+    margin-top: 1rem;
+}
